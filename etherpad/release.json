@@ -4,7 +4,7 @@
     "etherpad": {
         "source": {
             "repo": "ether/etherpad-lite",
-            "branch": "master"
+            "branch": "1.2.91"
         }
     },
     "plugins": {
