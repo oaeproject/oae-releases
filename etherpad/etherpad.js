@@ -12,8 +12,7 @@ var UploadUtil = require('oae-release-tools').UploadUtil;
 var release = require('./release');
 
 CoreUtil.logInfo('Cloning etherpad-lite');
-//CoreUtil.exec(util.format('git clone https://github.com/%s %s', release.etherpad.source.repo, release.cloneDir), 'Error cloning etherpad');
-CoreUtil.exec(util.format('git clone file:///tmp/etherpad-lite %s', release.cloneDir), 'Error cloning etherpad');
+CoreUtil.exec(util.format('git clone https://github.com/%s %s', release.etherpad.source.repo, release.cloneDir), 'Error cloning etherpad');
 shell.cd(release.cloneDir);
 
 // Checkout the desired branch
