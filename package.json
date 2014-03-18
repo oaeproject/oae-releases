@@ -1,0 +1,10 @@
+{
+    "name": "oae-releases",
+    "version": "0.0.1",
+    "description": "A utility repository for releasing and packaging OAE dependencies",
+    "dependencies": {
+        "oae-release-tools": "oaeproject/oae-release-tools",
+        "shelljs": "latest",
+        "underscore": "latest"
+    }
+}

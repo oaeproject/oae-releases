@@ -1,0 +1,28 @@
+{
+    "cloneDir": "etherpad",
+    "distDir": "dist",
+    "etherpad": {
+        "source": {
+            "repo": "ether/etherpad-lite",
+            "branch": "master"
+        }
+    },
+    "plugins": {
+        "ep_headings": {
+            "source": {
+                "repo": "ep_headings"
+            }
+        },
+        "ep_oae": {
+            "source": {
+                "repo": "oaeproject/ep_oae",
+                "branch": "master"
+            }
+        },
+        "ep_spellchecker": {
+            "source": {
+                "repo": "ep_spellcheck"
+            }
+        }
+    }
+}
