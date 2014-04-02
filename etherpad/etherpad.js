@@ -89,6 +89,7 @@ function copyEtherpadReleaseFiles(release) {
     var srcDir = util.format('%s/src', release.distDir);
     CoreUtil.exec(util.format('mkdir %s', srcDir));
 
+    CoreUtil.exec(util.format('cp -RLf .git %s/.git', srcDir));
     CoreUtil.exec(util.format('cp -RLf bin %s/bin', srcDir));
     CoreUtil.exec(util.format('cp -RLf node_modules %s/node_modules', srcDir));
     CoreUtil.exec(util.format('cp -RLf src %s/src', srcDir));
