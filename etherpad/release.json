@@ -4,13 +4,18 @@
     "etherpad": {
         "source": {
             "repo": "ether/etherpad-lite",
-            "branch": "1.2.91"
+            "branch": "1.4.0"
         }
     },
     "plugins": {
         "ep_headings": {
             "source": {
                 "repo": "ep_headings"
+            }
+        },
+        "ep_page_view": {
+            "source": {
+                "repo": "ep_page_view"
             }
         },
         "ep_oae": {
