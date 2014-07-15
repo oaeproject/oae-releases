@@ -28,6 +28,11 @@
             "source": {
                 "repo": "ep_spellcheck"
             }
+        },
+        "ep_hide_line_numbers": {
+            "source": {
+                "repo": "ep_hide_line_numbers"
+            }
         }
     }
 }
