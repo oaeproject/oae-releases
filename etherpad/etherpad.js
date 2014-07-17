@@ -93,6 +93,7 @@ function copyEtherpadReleaseFiles(release) {
     CoreUtil.exec(util.format('cp -RLf bin %s/bin', srcDir));
     CoreUtil.exec(util.format('cp -RLf node_modules %s/node_modules', srcDir));
     CoreUtil.exec(util.format('cp -RLf src %s/src', srcDir));
+    CoreUtil.exec(util.format('cp -RLf settings.json %s/settings.json', srcDir));
 
     return {'srcDir': srcDir};
 }
