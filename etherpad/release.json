@@ -13,11 +13,6 @@
                 "repo": "ep_headings"
             }
         },
-        "ep_page_view": {
-            "source": {
-                "repo": "ep_page_view"
-            }
-        },
         "ep_oae": {
             "source": {
                 "repo": "oaeproject/ep_oae",
