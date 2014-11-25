@@ -10,7 +10,7 @@
     "plugins": {
         "ep_headings": {
             "source": {
-                "repo": "ep_headings"
+                "repo": "https://s3.amazonaws.com/oae-releases/etherpad-plugins/ep_headings.tar.gz"
             }
         },
         "ep_oae": {
