@@ -4,19 +4,19 @@
     "etherpad": {
         "source": {
             "repo": "ether/etherpad-lite",
-            "branch": "e34a4ea4ee5939d0e38436299793793763b198be"
+            "branch": "a67664055d2b687815cb784e1eeaaac12a9fbfd8"
         }
     },
     "plugins": {
-        "ep_headings": {
+        "ep_headings2": {
             "source": {
-                "repo": "https://s3.amazonaws.com/oae-releases/etherpad-plugins/ep_headings.tar.gz"
+                "repo": "ep_headings2"
             }
         },
         "ep_oae": {
             "source": {
                 "repo": "oaeproject/ep_oae",
-                "branch": "master"
+                "branch": "etherpad-1.5.2"
             }
         }
     }
