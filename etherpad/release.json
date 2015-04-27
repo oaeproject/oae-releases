@@ -4,7 +4,7 @@
     "etherpad": {
         "source": {
             "repo": "ether/etherpad-lite",
-            "branch": "a67664055d2b687815cb784e1eeaaac12a9fbfd8"
+            "branch": "1.5.6"
         }
     },
     "plugins": {
@@ -16,7 +16,7 @@
         "ep_oae": {
             "source": {
                 "repo": "oaeproject/ep_oae",
-                "branch": "etherpad-1.5.2"
+                "branch": "etherpad-1.5.6"
             }
         }
     }
