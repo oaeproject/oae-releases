@@ -16,7 +16,7 @@
         "ep_oae": {
             "source": {
                 "repo": "oaeproject/ep_oae",
-                "branch": "etherpad-1.5.6"
+                "branch": "master"
             }
         }
     }
