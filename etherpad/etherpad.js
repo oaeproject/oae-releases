@@ -37,7 +37,7 @@ CoreUtil.logSuccess('Resolved version version to be '.text + etherpadVersion.whi
 PackageUtil.saveBuildInfo(srcDir, etherpadVersion, systemInfo);
 
 // Package the etherpad directory into a tarball
-var packageFilename = util.format('etherpad-%s+%s_node-%s', etherpadVersion, release.versionSeed, systemInfo.nodeVersion);
+var packageFilename = util.format('etherpad-%s_%s_node-%s', etherpadVersion, release.versionSeed, systemInfo.nodeVersion);
 var packageResult = PackageUtil.packageRelease(srcDir, release.distDir, packageFilename);
 var checksumResult = PackageUtil.checksumPackage(packageResult.packagePath);
 
