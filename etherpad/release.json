@@ -1,10 +1,11 @@
 {
     "cloneDir": "etherpad",
     "distDir": "dist",
+    "versionSeed": "0",
     "etherpad": {
         "source": {
             "repo": "ether/etherpad-lite",
-            "branch": "5615bab0d9e7cd62867991335dbf176055cc2332"
+            "branch": "1.5.7"
         }
     },
     "plugins": {
